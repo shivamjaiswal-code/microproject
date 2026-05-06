@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    font-family:'Segeo UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+/* 2. HEADER - The top dark bar */
+header {
+    background-color: #637396; 
+    color: white;
+    text-align: center;
+    padding: 60px 20px; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+
+/* 3. SECTIONS - Creating white cards for content  */
+section {
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 30px;
+    background: white;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #282852;
+    color:white;
+    padding:15px 30px;
+
+}
+nav h2{
+    margin:0;
+    border:none;
+    color:#ffffff;
+    font-size:1.6rem;
+    letter-spacing: 1px;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+    gap:20px;
+
+}
+nav ul li{
+    background:none;
+    border:none;
+    padding:0;
+}
+nav ul li a:hover{
+    color:#3498ab;
+}
+#projects p{
+    font-style: italic;
+    color: #9b9393;
+}
